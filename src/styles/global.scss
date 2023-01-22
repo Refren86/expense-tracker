@@ -19,3 +19,15 @@ a {
   color: #3e04c3;
   text-decoration: none;
 }
+
+/* Hide number input controls - Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

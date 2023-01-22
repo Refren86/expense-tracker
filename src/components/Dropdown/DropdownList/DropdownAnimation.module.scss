@@ -1,0 +1,17 @@
+.dropdownEnter {
+  max-height: 0;
+}
+
+.dropdownEnterActive {
+  max-height: 400px;
+  transition: max-height 0.5s ease-in;
+}
+
+.dropdownExit {
+  height: 100%;
+}
+
+.dropdownExitActive {
+  height: 0;
+  transition: all 0.2s ease-out;
+}

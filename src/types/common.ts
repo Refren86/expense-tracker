@@ -7,3 +7,8 @@ export type TExpense = {
   currency: TCurrency;
   description: string;
 };
+
+export type TOption = {
+  label: string;
+  value: string | number;
+};

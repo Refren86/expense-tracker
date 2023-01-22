@@ -37,6 +37,7 @@ export const ModalContent = styled.div`
   overflow: auto;
   background-color: ${GlobalStyles.colors.primary400};
   z-index: 30;
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 600px;
+  min-height: 200px;
+  padding: 1rem 1.5rem;
 `;

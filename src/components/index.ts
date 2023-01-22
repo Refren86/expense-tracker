@@ -4,4 +4,6 @@ export * from './Spinner';
 export * from './Portal';
 export * from './Expense';
 export * from './Expenses';
+export * from './Dropdown';
+export * from './FormInput';
 export * from './SimpleAnimatedModal';
